@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="thread">
+    <test name = "test">
+        <classes>
+            <class name="com.interpop.testCases.getCodeTest"/>
+            <class name="com.interpop.testCases.LoginTest"/>
+<!--            <class name="com.interpop.testCases.RegisterTest"/>-->
+            <class name="com.interpop.testCases.AddPresalerGroupsTest"/>
+            <class name="com.interpop.testCases.AddPresalerTest"/>
+
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.interpop.config.ExtentTestNGIReporterListener"/>
+    </listeners>
+
+</suite>
